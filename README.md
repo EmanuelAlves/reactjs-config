@@ -12,7 +12,7 @@ Guide for creating a *reactjs* application
 
 ```yarn eslint --init```
 
-```yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D```
+```yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D ```
 
 -- abrir o .eslintrc.js
 -- colocar no extends: 'prettier', 'prettier/react'
