@@ -4,9 +4,9 @@ Guide for creating a *reactjs* application
 
 ```yarn create react-app my-app```
 
--- no parckge.json remover o "eslintConfig"
+* no parckge.json remover o "eslintConfig"
 
--- vscode .editconfig
+* vscode .editconfig
 
 ```yarn add eslint -D```
 
@@ -14,10 +14,10 @@ Guide for creating a *reactjs* application
 
 ```yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D ```
 
--- abrir o .eslintrc.js
--- colocar no extends: 'prettier', 'prettier/react'
--- adcionar "parser: 'babel-eslint'"
--- dentro dos plugins: 'prettier'
+* abrir o .eslintrc.js
+* colocar no extends: 'prettier', 'prettier/react'
+* adcionar "parser: 'babel-eslint'"
+* dentro dos plugins: 'prettier'
  
 ```rules: {
     'prettier/prettier': 'error',
@@ -30,8 +30,8 @@ Guide for creating a *reactjs* application
 ```
 
 
--- criar o arquivo .prettierrc
--- adicionar: 
+* criar o arquivo .prettierrc
+* adicionar: 
 ```
 {
     "singleQuote": true,
