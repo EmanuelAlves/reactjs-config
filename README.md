@@ -18,8 +18,9 @@ Guide for creating a *reactjs* application
 * colocar no extends: 'prettier', 'prettier/react'
 * adcionar "parser: 'babel-eslint'"
 * dentro dos plugins: 'prettier'
- 
-```rules: {
+* rules: 
+```
+rules: {
     'prettier/prettier': 'error',
     'react/jsx-filename-extension':[
         'warn',
