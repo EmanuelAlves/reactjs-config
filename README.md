@@ -12,23 +12,9 @@ Guide for creating a *reactjs* application
 
 ```yarn eslint --init```
 
-```yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D ```
+```yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint eslint-plugin-react-hooks -D ```
 
-* abrir o .eslintrc.js
-* colocar no extends: 'prettier', 'prettier/react'
-* adcionar "parser: 'babel-eslint'"
-* dentro dos plugins: 'prettier'
-* rules: 
-```
-rules: {
-    'prettier/prettier': 'error',
-    'react/jsx-filename-extension':[
-        'warn',
-        { extensions: ['.jsx', '.js'] }
-    ],
-    'import/prefer-default-export': 'off'
-   }
-```
+* baixar o .eslintrc.js e substituir o do projeto
 
 
 * criar o arquivo .prettierrc
